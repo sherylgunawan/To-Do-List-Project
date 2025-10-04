@@ -1,0 +1,93 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #0f172a;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.todo {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 12px;
+  width: 500px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.todoform {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.todo-form input, .todo-form button {
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+}
+
+#taskInput {
+  flex: 2;
+}
+
+#dateInput {
+  flex: 1;
+}
+
+#addBtn {
+  background: #6366f1;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.actions button {
+  background: #475569;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #334155;
+}
+
+td button {
+  margin: 0 5px;
+  padding: 5px 10px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+.completeBtn {
+  background: #22c55e;
+  color: white;
+}
+
+.deleteBtn {
+  background: #ef4444;
+  color: white;
+}
